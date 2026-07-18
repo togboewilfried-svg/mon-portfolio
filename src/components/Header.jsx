@@ -51,8 +51,7 @@ export default function Header() {
           <span className="text-white">wil</span>
           <span className="">fried.dev</span>
         </a>
-
-        <ul className=" md:flex items-center gap-8 text-sm" role="list">
+          <ul className="hidden md:flex items-center gap-8 text-sm" role="list">
           {NAV_LINKS.map((link) => (
             <li key={link.id}>
               <a href={`#${link.id}`} className={linkClass(link.id)}>
@@ -110,7 +109,7 @@ export default function Header() {
                 onClick={() => setMobileOpen(false)}
                 className="inline-flex shimmer bg-accent text-white font-medium text-sm px-5 py-2.5 rounded-full"
               >
-                Me contacter →
+                Contact
               </a>
             </li>
           </ul>
