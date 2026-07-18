@@ -1,4 +1,4 @@
-import profilePhoto from '../assets/img/profile/profile-square-11.webp';
+import profilePhoto from '../assets/img/profile/profil.jpg';
 
 export default function Hero() {
   return (

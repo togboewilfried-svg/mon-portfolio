@@ -4,12 +4,12 @@ import projectImg3 from '../assets/img/portfolio/portfolio-3.webp';
 import projectImg4 from '../assets/img/portfolio/portfolio-4.webp';
 
 const PROJECTS = [
-  {
+   {
     image: projectImg1,
-    tags: ['React.js', 'JavaScript'],
-    title: 'Nom du projet 1',
+    tags: ['HTML', 'CSS', 'Bootstrap'],
+    title: 'Introchill',
     description: "Description courte du projet : à quoi il sert, ce que tu as construit.",
-    link: '#',
+    link: 'https://togboewilfried-svg.github.io/Introchill/',
   },
   {
     image: projectImg2,
