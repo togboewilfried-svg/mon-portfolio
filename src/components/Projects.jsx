@@ -1,36 +1,44 @@
-import projectImg1 from '../assets/img/portfolio/portfolio-1.webp';
-import projectImg2 from '../assets/img/portfolio/portfolio-2.webp';
-import projectImg3 from '../assets/img/portfolio/portfolio-3.webp';
-import projectImg4 from '../assets/img/portfolio/portfolio-4.webp';
+import projectImg1 from '../assets/img/portfolio/portfolio-introchill.webp';
+import projectImg2 from '../assets/img/portfolio/portfolio-benin-actu.webp';
+import projectImg3 from '../assets/img/portfolio/portfolio-meteo.webp';
+import projectImg4 from '../assets/img/portfolio/portfolio-cotisations-foot.webp';
+import projectImg5 from '../assets/img/portfolio/portfolio-crochet-by-maurie.webp';
 
 const PROJECTS = [
-   {
+  {
     image: projectImg1,
     tags: ['HTML', 'CSS', 'Bootstrap'],
-    title: 'Introchill',
-    description: "Description courte du projet : à quoi il sert, ce que tu as construit.",
+    title: 'IntroChill',
+    description: "Landing page pour un événement chill à Cotonou : compte à rebours, programme sur deux jours et billetterie (pass).",
     link: 'https://togboewilfried-svg.github.io/Introchill/',
   },
   {
     image: projectImg2,
-    tags: ['Laravel', 'PHP'],
-    title: 'Nom du projet 2',
-    description: "Description courte du projet : à quoi il sert, ce que tu as construit.",
-    link: '#',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    title: 'Bénin Actu',
+    description: "Portail d'actualité fictif avec filtrage par catégorie, recherche en direct, article à la une et animations d'interface.",
+    link: 'https://benin-actu.netlify.app/',
   },
   {
     image: projectImg3,
-    tags: ['WordPress', 'Bootstrap'],
-    title: 'Nom du projet 3',
-    description: "Description courte du projet : à quoi il sert, ce que tu as construit.",
-    link: '#',
+    tags: ['JavaScript', 'API', 'CSS'],
+    title: 'Météo',
+    description: "Application de consultation météo en temps réel par ville (OpenWeatherMap) : température, ressenti, humidité, vent, pression.",
+    link: 'https://meteo-app-w.netlify.app/',
   },
   {
     image: projectImg4,
-    tags: ['React.js', 'Tailwind CSS'],
-    title: 'Nom du projet 4',
-    description: "Description courte du projet : à quoi il sert, ce que tu as construit.",
-    link: '#',
+    tags: ['PHP', 'Laravel'],
+    title: 'Cotisations Foot',
+    description: "Outil de suivi des cotisations d'une équipe amateur : total collecté, historique des paiements, espace connexion trésorier.",
+    link: 'https://cotisations-foot-production.up.railway.app/',
+  },
+  {
+    image: projectImg5,
+    tags: ['PHP', 'Laravel'], 
+    title: 'Crochet by Maurie',
+    description: "Site vitrine pour une créatrice de crochet fait main : catalogue produits, coups de cœur et demandes sur-mesure.",
+    link: 'https://crochet-by-maurie-production.up.railway.app/',
   },
 ];
 
